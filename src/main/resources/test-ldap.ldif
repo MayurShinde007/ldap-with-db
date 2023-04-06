@@ -1,0 +1,96 @@
+dn: dc=springframework,dc=org
+objectclass: top
+objectclass: domain
+objectclass: extensibleObject
+dc: springframework
+
+dn: ou=groups,dc=springframework,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: groups
+
+dn: ou=subgroups,ou=groups,dc=springframework,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: subgroups
+
+dn: ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: ou=space cadets,dc=springframework,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: space cadets
+
+dn: ou=\"quoted people\",dc=springframework,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: "quoted people"
+
+dn: ou=otherpeople,dc=springframework,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: otherpeople
+
+dn: uid=ben,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Ben Alex
+sn: Alex
+uid: ben
+userPassword: $2a$10$fG1Exub7ZNNiNJm10LBJ3eKDh.OLMMmZliYWpohaY.uNTy.cnDi.a
+
+dn: uid=andy,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Andy Hamilton
+sn: Hamilton
+uid: Andy
+userPassword: $2a$10$.nJ7gcBkJCdzymWkwUYieuxsyjJAr0rEUlPFaOqSvIbBZ82RSg/Hu
+
+dn: uid=user1,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: user1
+sn: user1
+uid: user1
+userPassword: $2a$10$oqkYsRpB7ACzvtd022WJPu/CHBLiMUWqaIl71.yhRMF2CV3YAIjja
+
+dn: uid=user2,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: user2
+sn: user2
+uid: user2
+userPassword: $2a$10$oaIy8nwOLs6rndvo7NJLMe.d9iQhJlzQ15jSrZmtPgNkz2Nt6ctP6
+
+dn: uid=user3,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: user3
+sn: user3
+uid: user3
+userPassword: $2a$10$cFv3NkjSKaV81ewNmPy9JufxQuZq4LrbHq7vzE4lt/9l/7CXbwjTm
+
+
+dn: uid=pavan,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: pavan
+sn: pavan
+uid: pavan
+userPassword: $2a$10$SdhxqsgXIWdVS/0B9Q8xke43v7VNhasolT9KFw2ZAeQAOQO1I9LaC
